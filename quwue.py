@@ -26,7 +26,7 @@ def process_request():
         print("The queue is empty. There are no requests to process.\n")
 
 def main():
-    print("Service center. Simulating work with applications.\n")
+    print("Service center. Simulating work with applications.\nPress Ctrl+C to exitу.")
     try:
         while True:
             generate_request()

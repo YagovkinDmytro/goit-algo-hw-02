@@ -24,7 +24,7 @@ def is_palindrome(string):
     print("The string is a palindrome.")
 
 def main():
-    print("Check if a string is a palindrome.")
+    print("Check if a string is a palindrome.\nPress Ctrl+C to exitу.")
     try:
         while True:
             user_input = input("Enter a string: ")
